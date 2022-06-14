@@ -5,15 +5,20 @@
 项目介绍
 科大领创云教务面对学校、培训机构和企事业单位的高效、开源、智能的在线协同建站系统。该系统集招生管理、教务管理、教学管理、账户于一体的开源教学管理系统。在我们的日常教学活动中，动态要素是教师、学生及心理环境，人的要素——教师和学生是控制和制约教学系统进行的关键因素，在这个网络智能的时代拥有一款优秀的教务系统是非常值得的选择。因为教学系统是物的要素，是师生互动交流的载体，而心理环境是使教务系统中人和物的要素得以有机运作的文化与情感支撑，那不妨用一下陕西科达领创科技有限公司提供的云教务系统。 我们的旗舰版系统具有用户管理 角色管理 权限管理 门户网站内容发布 微信公众号文章编辑同步 学员管理 教学场地管理 教师资源管理 选课模块 排课模块 课程管理 招生模块 教学评价 在线学习（学员 课件 积分 学习计划管理等） 在线测评（试题管理 组卷 自动阅卷等）工作流管理 个人待办等。 在这里我们简单的说明了一下科达领创开源版云教务系统拥有的功能模块，至于系统的具体细节还请大家去摸索应用了解。摩码创想开源版云教务系统主要由教学、系统、账户三个大模块组成，每个模块下有对应的小模块，下面通过通过文字说明让大家简单了解一下三个大模块下的基本功能。 首先是账户模块下有账户管理、消息中心、各模块分别有记录个人信息、消息的收发情况以及请假申请和记录的功能。*** 云教务登录页面展示 其次是系统模块下有系统管理、机构管理、参数管理的小模块。这些模块分别承担着对系统的各个模块、功能、角色、校园、用户等的管理操作。 最后是教学模块下有学生、教师、排课、班课、科目等等的一些管理，其中我们可以在学生列表中进行直接的购课排课以及看对应的学生课程等一些快捷操作。 希望能在实际的应用中帮助到大家，谢谢大家的支持。 login的页面 云教务的主页面展示 云教务教学
 
-![登录页面](https://user-images.githubusercontent.com/46736476/173611292-dd850e38-f4d0-4c49-ad77-9e6b458d114c.png)
-![首页](https://user-images.githubusercontent.com/46736476/173611315-f6acb124-2849-4487-b411-86a61189d020.png)
-![信息发布](https://user-images.githubusercontent.com/46736476/173613703-9090f8da-f25a-4c64-884f-1fa18ab18b12.png)
-![juese](https://user-images.githubusercontent.com/46736476/173613722-a8dfc0e1-9402-4f3a-8d19-794c29cb50ee.png)
-![待办](https://user-images.githubusercontent.com/46736476/173613739-c3b1ec09-9d7b-4245-9b3e-f4c5aa21b66c.png)
-![短信](https://user-images.githubusercontent.com/46736476/173613755-7b24a7b3-1863-4f12-ba28-737c79fbf22a.png)
-![课程](https://user-images.githubusercontent.com/46736476/173613774-04f25039-2dc4-4edc-abed-679692af4a42.png)
-![在线考试](https://user-images.githubusercontent.com/46736476/173613863-389d5bc3-5415-470f-b561-7be54b58c928.png)
-![自定义表单](https://user-images.githubusercontent.com/46736476/173613617-485f7a5e-5f3c-4dd0-9d24-fb3ba78fa43c.png)
+![登录页面](https://user-images.githubusercontent.com/46736476/173614564-8d0840c2-0099-4156-b837-f3a71e37da37.png)
+![首页](https://user-images.githubusercontent.com/46736476/173614588-7bea57be-8e6c-4d04-89df-4adea645f373.png)
+![信息发布](https://user-images.githubusercontent.com/46736476/173614859-174f4a82-250f-469e-9caa-92f3cd697c40.png)
+![juese](https://user-images.githubusercontent.com/46736476/173614605-a94618bf-0559-4918-97b0-e2d838c207f2.png)
+![待办](https://user-images.githubusercontent.com/46736476/173614637-ad508e6f-7df3-47b3-91cf-1d108f15855a.png)
+![课程](https://user-images.githubusercontent.com/46736476/173614743-1d70973b-58bb-44e6-944c-89cdd2f46657.png)
+![短信](https://user-images.githubusercontent.com/46736476/173614756-1c16c64e-418a-4911-adb4-6541b904f132.png)
+![流程](https://user-images.githubusercontent.com/46736476/173614774-786d3277-b82f-4f48-afff-0535d3f812b4.png)
+![流程设计](https://user-images.githubusercontent.com/46736476/173614790-bd3126ac-32b2-4b25-ba8a-232643cda7d1.png)
+![排课png](https://user-images.githubusercontent.com/46736476/173614801-7a5c98f1-abf6-4af8-ac09-e6c76c9c5366.png)
+![日志](https://user-images.githubusercontent.com/46736476/173614819-af456532-4a73-4f7a-9c30-c57287666c60.png)
+![微信](https://user-images.githubusercontent.com/46736476/173614836-3ed5dd3e-421d-4ebd-b320-0f08ddb10417.png)
+![在线考试](https://user-images.githubusercontent.com/46736476/173614895-b2a673fe-8b43-4ce9-9398-510dee4c3517.png)
+![自定义表单](https://user-images.githubusercontent.com/46736476/173614906-546cda2e-d0b0-4ae3-9945-568022a201d2.png)
 
 
 技术框架
@@ -30,9 +35,6 @@ Springboot Mybatis Activiti enjoy rabbitmq redis vue jquery mysql
 为了您更好的使用云教务，请阅读根目录下面的使用说明。您对云教务有什么好的建议或在使用中出现问题，可以通过以下方式联系我们：
 
 【官方网站】 :http://www.kdlc88.com/
+
  微信客服：
-
-
-
-
 ![31a52aa5a12f09f4d59cd414ed034e4](https://user-images.githubusercontent.com/46736476/173611081-e19b4048-529f-41a0-ade0-d6a7ab48566e.jpg)
